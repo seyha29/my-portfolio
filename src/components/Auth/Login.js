@@ -1,0 +1,48 @@
+import React, { useState } from "react";
+import { FaEnvelope, FaLock } from "react-icons/fa";
+import "./Auth.css";
+
+function Login({ onLogin }) {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onLogin({ email, password });
+  };
+
+  return (
+    <div className="auth-container">
+      <form className="auth-form" onSubmit={handleSubmit}>
+        <h2 className="auth-title">Login</h2>
+        <div className="input-group">
+          <FaEnvelope className="input-icon" />
+          <input
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            aria-label="Email"
+          />
+        </div>
+        <div className="input-group">
+          <FaLock className="input-icon" />
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            aria-label="Password"
+          />
+        </div>
+        <button type="submit" className="auth-button">
+          Login
+        </button>
+      </form>
+    </div>
+  );
+}
+
+export default Login;
