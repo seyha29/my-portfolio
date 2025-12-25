@@ -15,7 +15,7 @@ function Projects() {
       title: "Portfolio Website",
       description: "Professional portfolio showcasing my projects and skills with responsive design and interactive elements.",
       image: "/assets/projects/project2.jpg",
-      link: "https://your-ecommerce-store.com",
+      link: "https://seyha29-my-portfolio.vercel.app/",
       tags: ["React", "CSS", "Responsive Design"]
     },
     {
