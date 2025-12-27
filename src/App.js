@@ -12,10 +12,20 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(() => {
+    try {
+      const stored = localStorage.getItem("darkMode");
+      if (stored !== null) return stored === "true";
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } catch (e) {
+      return true;
+    }
+  });
 
   useEffect(() => {
-    document.body.className = darkMode ? "dark" : "";
+    if (darkMode) document.body.classList.add("dark");
+    else document.body.classList.remove("dark");
+    try { localStorage.setItem("darkMode", darkMode); } catch (e) {}
   }, [darkMode]);
 
   const toggleDarkMode = () => setDarkMode((prev) => !prev);
