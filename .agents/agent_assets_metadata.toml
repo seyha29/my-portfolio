@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "QwtbTodc0Joo3ME5fdFmO"
+uri = "file://artifacts/portfolio-mobile/assets/images/icon.png"
+type = "image"
+title = "portfolio mobile icon"
