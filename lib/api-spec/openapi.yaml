@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: tokens
+    description: Push notification token operations
 paths:
   /healthz:
     get:
@@ -24,6 +26,31 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /tokens:
+    post:
+      operationId: registerToken
+      tags: [tokens]
+      summary: Register push token
+      description: Registers an Expo push notification token for a device
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TokenRegistrationRequest"
+      responses:
+        "201":
+          description: Token registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TokenRegistrationResponse"
+        "400":
+          description: Invalid request body
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +60,32 @@ components:
           type: string
       required:
         - status
-
+    TokenRegistrationRequest:
+      type: object
+      properties:
+        token:
+          type: string
+          description: Expo push notification token
+        platform:
+          type: string
+          enum: [ios, android]
+          description: Device platform
+      required:
+        - token
+    TokenRegistrationResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+      required:
+        - success
+        - message
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error

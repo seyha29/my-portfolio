@@ -5,9 +5,6 @@
  * API specification
  * OpenAPI spec version: 0.1.0
  */
-export interface HealthStatus {
-  status: string;
-}
 
 /**
  * Device platform
@@ -19,20 +16,3 @@ export const TokenRegistrationRequestPlatform = {
   ios: 'ios',
   android: 'android',
 } as const;
-
-export interface TokenRegistrationRequest {
-  /** Expo push notification token */
-  token: string;
-  /** Device platform */
-  platform?: TokenRegistrationRequestPlatform;
-}
-
-export interface TokenRegistrationResponse {
-  success: boolean;
-  message: string;
-}
-
-export interface ErrorResponse {
-  error: string;
-}
-
