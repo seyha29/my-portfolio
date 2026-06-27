@@ -582,6 +582,7 @@ body.dark .darkmode-toggle:active .toggle-thumb {
     transform: translateY(15px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     border-bottom: 1px solid var(--glass-border-light);
+    width: 100%;
   }
 
   body.dark .nav-links li {
