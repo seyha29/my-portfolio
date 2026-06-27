@@ -1,8 +1,31 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "QwtbTodc0Joo3ME5fdFmO"
 uri = "file://artifacts/portfolio-mobile/assets/images/icon.png"
 type = "image"
 title = "portfolio mobile icon"
+
+[[generated]]
+id = "bpbnLOj7shk4BcBz4VtZL"
+uri = "file://artifacts/promo-video/public/images/bg-code.png"
+type = "image"
+title = "Code abstract background"
+
+[[generated]]
+id = "pJRbWAJha9_zZqxPeeIYX"
+uri = "file://artifacts/promo-video/public/images/proj-uni.png"
+type = "image"
+title = "University website mockup"
+
+[[generated]]
+id = "Xh9hUKnXJvg-eB0UuQaJB"
+uri = "file://artifacts/promo-video/public/images/proj-shop.png"
+type = "image"
+title = "E-commerce dashboard"
+
+[[outputs]]
+id = "ck0qFJYKRxvVLPg6GUGbX"
+uri = "file://artifacts/promo-video/public/audio/bg_music.mp3"
+type = "audio"
+title = "portfolio promo background music"
