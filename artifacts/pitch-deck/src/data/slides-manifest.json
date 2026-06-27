@@ -1,0 +1,50 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567801",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide1Title.tsx",
+    "title": "Than Seyha",
+    "description": "Title slide — name, role, and portfolio link",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567802",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide2About.tsx",
+    "title": "About",
+    "description": "Brief introduction — who Than Seyha is and what he builds",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567803",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide3Skills.tsx",
+    "title": "Technical Skills",
+    "description": "Full technical stack with proficiency levels — frontend and frameworks",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567804",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide4Projects.tsx",
+    "title": "Featured Projects",
+    "description": "Four real-world projects — university site, portfolio, and two e-commerce apps",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567805",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide5Certificates.tsx",
+    "title": "Certificates",
+    "description": "AWS Cloud Foundations and Fortinet Network Security Associate credentials",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567806",
+    "position": 6,
+    "filepath": "src/pages/slides/Slide6Contact.tsx",
+    "title": "Contact",
+    "description": "Closing slide with portfolio link and call to action",
+    "speakerNotes": ""
+  }
+]
