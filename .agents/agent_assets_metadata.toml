@@ -29,3 +29,9 @@ id = "ck0qFJYKRxvVLPg6GUGbX"
 uri = "file://artifacts/promo-video/public/audio/bg_music.mp3"
 type = "audio"
 title = "portfolio promo background music"
+
+[[outputs]]
+id = "V4wDWRzoyrzWhcfCIs8Tz"
+uri = "file://.local/outputs/Than-Seyha-Portfolio-Pitch-Deck.pptx"
+type = "slides"
+title = "Than Seyha Portfolio Pitch Deck.pptx"
