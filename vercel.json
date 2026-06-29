@@ -1,4 +1,5 @@
 {
+  "installCommand": "corepack enable && pnpm install",
   "buildCommand": "pnpm --filter @workspace/portfolio run build",
   "outputDirectory": "artifacts/portfolio/dist",
   "framework": null
