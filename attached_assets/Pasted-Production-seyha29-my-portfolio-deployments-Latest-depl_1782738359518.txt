@@ -1,0 +1,90 @@
+Production – seyha29-my-portfolio deployments
+Latest deployments
+Production – seyha29-my-portfolio
+Lastdeployed2 minutes ago
+https://seyha29-my-portfolio-oar42eopb-than-seyhas-projects.vercel.app
+Filter deployments
+Filter deployments
+10 deployments
+10 deployments
+Add image file to assets for website display
+Active
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+940e1568f6e586256ae95e8b73a94a51d6826a55
+2 minutes ago
+Add presentation file for portfolio pitch
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+aa90a74ce2f2e85631aef2831b0ef2d12118d651
+14 minutes ago
+Create azure-webapps-node.yml
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+2cfb7661a43e34cb3f432820897b114b96398399
+2 days ago
+feat: set up push notifications & deep linking for portfolio mobile app
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+f75161bdea11ca6487ab98e6ec2a58bd1571037c
+2 days ago
+feat: add promo video artifact for Than Seyha portfolio
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+fd03769c984c9a4d1a53acf5f0f568964453c7f6
+2 days ago
+Update profile picture on web and mobile applications
+Status: Failed to deploy (completed).
+Failed to deploy to
+Production – seyha29-my-portfolio
+by
+vercel
+e187ee0f18b47b2eddc142fbaa089daf1ce04504
+2 days ago
+update portfolio
+Status: Deployed (completed).
+Deployed to
+Production – seyha29-my-portfolio
+by
+vercel
+becc99bc8db3a82a2fa7bfb5a7023b12d9c063f9
+Dec 27, 2025
+update portfolio
+Status: Deployed (completed).
+Deployed to
+Production – seyha29-my-portfolio
+by
+vercel
+78b29f841c98bcc726619463b8b1d72228a5fb45
+Dec 25, 2025
+fix routing
+Status: Deployed (completed).
+Deployed to
+Production – seyha29-my-portfolio
+by
+vercel
+06314d6f34bd0300f5351700ed09eabae1b567a3
+Dec 25, 2025
+first deploy
+Status: Deployed (completed).
+Deployed to
+Production – seyha29-my-portfolio
+by
+vercel
+1799789403b6b0ecc7c97b4215c4195179e46330
+Dec 25, 2025

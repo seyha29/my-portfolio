@@ -1,0 +1,44 @@
+20:03:01.924 
+ WARN  GET https://registry.npmjs.org/react-router-dom error (ERR_INVALID_THIS). Will retry in 10 seconds. 2 retries left.
+20:03:01.924 
+ WARN  GET https://registry.npmjs.org/react-router-hash-link error (ERR_INVALID_THIS). Will retry in 10 seconds. 2 retries left.
+20:03:01.924 
+ WARN  GET https://registry.npmjs.org/react-type-animation error (ERR_INVALID_THIS). Will retry in 10 seconds. 2 retries left.
+20:03:11.920 
+ WARN  GET https://registry.npmjs.org/react-scripts error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.921 
+ WARN  GET https://registry.npmjs.org/@emailjs%2Fbrowser error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.921 
+ WARN  GET https://registry.npmjs.org/@testing-library%2Fdom error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.923 
+ WARN  GET https://registry.npmjs.org/@testing-library%2Fjest-dom error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.923 
+ WARN  GET https://registry.npmjs.org/@testing-library%2Freact error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.924 
+ WARN  GET https://registry.npmjs.org/@testing-library%2Fuser-event error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.924 
+ WARN  GET https://registry.npmjs.org/ansi-styles error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.925 
+ WARN  GET https://registry.npmjs.org/emailjs-com error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.925 
+ WARN  GET https://registry.npmjs.org/framer-motion error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.925 
+ WARN  GET https://registry.npmjs.org/particles.js error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.926 
+ WARN  GET https://registry.npmjs.org/react error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.926 
+ WARN  GET https://registry.npmjs.org/react-dom error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.926 
+ WARN  GET https://registry.npmjs.org/react-icons error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.926 
+ WARN  GET https://registry.npmjs.org/react-router-dom error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.927 
+ WARN  GET https://registry.npmjs.org/react-router-hash-link error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:03:11.927 
+ WARN  GET https://registry.npmjs.org/react-type-animation error (ERR_INVALID_THIS). Will retry in 1 minute. 1 retries left.
+20:04:11.922 
+ WARN  GET https://registry.npmjs.org/web-vitals error (ERR_INVALID_THIS). Will retry in 10 seconds. 2 retries left.
+20:04:11.923 
+ ERR_PNPM_META_FETCH_FAIL  GET https://registry.npmjs.org/react-scripts: Value of "this" must be of type URLSearchParams
+20:04:11.937 
+Error: Command "npm install -g pnpm && pnpm install" exited with 1
